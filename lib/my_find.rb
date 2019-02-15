@@ -5,7 +5,7 @@ def my_find(collection)
   while i < collection.length
     # This is the block that we are yielding to:
     # {|i| i % 3 == 0 && i % 5 == 0 }
-    return yield(collection[i]) if yield(collection[i])
+    return (collection[i]) if yield(collection[i])
 
     i += 1
   end

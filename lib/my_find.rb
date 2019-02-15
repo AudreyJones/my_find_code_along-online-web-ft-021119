@@ -8,7 +8,8 @@ def my_find(collection)
     yield(collection[i])
       if true
         return collection[i]
-
+      else
+        false
     i += 1
   end
 end
